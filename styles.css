@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER START*/
+.picBack{
+    display: grid;
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.containPic img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    margin-top: 20px;
+    padding-left: 0px;
+    width: 30%;
+    height: 50;
+}
+/*NAVIGATION BAR START*/
+#nav-bar{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 2;
+    margin-top: 25px;
+    width: 26%;
+    height: 20px;
+    text-align: right;
+
+}
+
+.nav-link{
+    font-size: large;
+    color: rgb(147, 107, 107);
+    margin-right: 10px;
+    
+}
+
+#subLabel{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    z-index: 2;
+    min-width: 75%;
+    min-height: 20px;
+    font-size: 25px;
+    color: rgb(147, 107, 107);
+}
+/*NAVIGATION BAR END*/
+
+
+/*FORM START*/
+
+.login{
+    position: absolute;
+    top: 75%;
+    left: 24%;
+    z-index: 2;
+    min-width: 50%;
+    height: 200px;
+    background-color: rgba(226, 207, 207, 0.78);
+    border: thick #8B4351 dashed;
+}
+
+input[type="submit"]{
+   
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #d3bcaa;
+    border: none;
+    border-radius: 5%;
+    min-width: 100px;
+    color: rgb(106, 77, 77);
+}
+
+input[type="email"]{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 25%;
+    display: block;
+    width: 50%;
+    height: 2em;
+}
+/*FORM END*/
+/*HEADER END*/
+
+.main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*ABOUT CONCHITA START*/
+
+
+.about{
+    border-radius: 30px;
+    background-color: #8B4351;
+    margin-top: 150px;
+    padding: 10px;
+    color: white;
+    width: 75%;
+    text-align: center;
+    margin-left: 13%;
+}
+
+#aboutSect{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 25px;
+    border-radius: 30px;
+    width: 96%;
+    color:#8B4351;
+    background-color: white; 
+}
+
+#aboutSect p{
+    padding: 20px;
+}
+/*ABOUT CONCHITA END*/
+
+/**/
+
+
+/**/
+
+
+/*PRODUCT START*/
+#Products{
+    margin-top: 100px;
+}
+
+#titleP{
+    color: rgb(106, 77, 77);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12%;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.saleBox{
+    padding: 10px;
+    text-align: center;
+    margin-right: 100px;
+    background-color: rgb(106, 77, 77);
+    width: 300px;
+    height: 500px;
+    color: #FDF9ED;
+
+}
+
+.saleBox:hover{
+    color: white;
+    background-color: rgb(176, 100, 101);
+    box-shadow: 0 0 10px 10px rgb(230, 194, 194);
+
+}
+
+
+#product_img{
+    width: 300px;
+    height: 300px;
+}
+
+/*PRODUCT END*/
+
+
+/*FOOTER START*/
+footer{
+    background-color: #8B4351;
+    width: 100%;
+    height: 5rem;
+}
+
+#icons{
+    position: absolute;
+    right:10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+}
+
+footer h2{
+    position: absolute;
+    width:fit-content;
+    right: 150px;
+    color: white;
+}
+
+.socials{
+    color: white;
+}
+
+/*FOOTER END*/
+
+/*IN THE WILD SECTION START*/
+#Wild h2{
+   
+    text-align: center;
+    color: #733e48;
+}
+
+#Wild p{
+    text-align: center;
+    font-size: 18px;
+    color: pink;
+}
+
+#Wild a{
+    color: pink;
+}
+
+#Wild a::after{
+    color: pink;
+}
+
+#Wild a:hover{
+    color: #FEADE8;
+
+}
+
+/*IN THE WILD SECTION END*/
+
+/*VIDEO START*/
+.vidSect{
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 40px;
+    width: 71%;
+    margin-left: 13%;
+    
+}
+#video{
+    border: thick #733e48 dashed;
+    margin-left: 20%;
+    border-radius: 30px;
+
+    
+}
+
+/**/
